@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>FanafiBird</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="gameWrapper">
+      <canvas id="gameCanvas"></canvas>
+      <div id="livescore">0</div>
+
+      <!-- OVERLAY SCREEN (start / game over) -->
+      <div id="overlay">
+        <div class="title">🐦 FANAFI</div>
+        <div class="subtitle">BIRD</div>
+        <button class="btn btn-start" id="startBtn">MULAI GAME</button>
+        <div class="tap-hint">Tap layar atau klik untuk terbang</div>
+      </div>
+    </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>
